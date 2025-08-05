@@ -253,7 +253,7 @@ class AkshareDatafeed(BaseDatafeed):
                     high_price=round_to(high_price, 0.000001),
                     low_price=round_to(low_price, 0.000001),
                     close_price=round_to(close_price, 0.000001),
-                    volume=volume,
+                    volume=volume*100,  # 成交量单位转换为股
                     turnover=turnover,
                     open_interest=open_interest,
                     gateway_name="AK"
