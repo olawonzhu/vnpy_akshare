@@ -73,7 +73,7 @@ def test_query_bar_history():
         print("未能获取到指数数据")
 
     # 测试4: 错误处理 - 无效的交易所
-    print("\n=== 测试4: 错误处理 ===")
+    print("\n=== 测试4: 错误处理示范 ===")
     req4 = HistoryRequest(
         symbol="000001",
         exchange=Exchange.SMART,  # SMART不是一个支持的交易所

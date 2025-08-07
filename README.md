@@ -90,10 +90,10 @@ if datafeed.init():
 
 单元测试代码目录为`./tests/test_*.py`
 ```sh
-# 指定文件执行单元测试
-python -m unittest tests\test_your_file_name.py
+# 进入测试目录
+cd tests
 
-# 全量执行
-python -m unittest
+# 指定文件执行单元测试
+python test_query_bar_history.py
 ```
 
